@@ -1,0 +1,101 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: aqua;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+    background-image: url(imgs/logo_make_11_06_2023_377.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.header_sobre {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+    background-image: url(imgs/colegas-dando-uma-colisao-de-punho.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.header_horarios {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+    background-image: url(imgs/5217601.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+} 
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 150px;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+.rodape {
+    text-align: center;
+}
+
+table td{
+    text-align: center;
+    padding: 10px;
+    border-spacing: 0px;
+}
+
+table th {
+    padding: 10px;
+}
+
+table {
+    background-color: rgb(228, 228, 228);
+    padding: 2px;
+    border-radius: 10px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+table tr:nth-child(even) {
+    background-color: rgb(170, 170, 170);
+}
+
+input {
+    margin: 10px;
+    width: 100px;
+}
